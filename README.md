@@ -1,5 +1,5 @@
 # 📢 Text to Speech Converter 🎙️
-![image](https://github.com/user-attachments/assets/38a81943-8f50-4343-b5ff-7eeebe782d07)
+![image](D:\Project\PW Project\TTS Project\image\Screenshot_26-5-2025_223812_127.0.0.1.jpeg)
 
 Welcome to the **Text-to-Speech (TTS) Converter project!** This application converts user-provided text into natural-sounding speech with customizable English accents. Built using Flask, gTTS (Google Text-to-Speech), HTML, Tailwind CSS, and JavaScript, it offers a sleek, responsive UI and is architected with modularity, error handling, and configuration management—making it ideal for integration into larger systems. 🌐✨
 
@@ -13,7 +13,6 @@ Welcome to the **Text-to-Speech (TTS) Converter project!** This application conv
 - **Fast Conversion**: Convert text to speech in seconds with a seamless experience. ⚡  
 - **Responsive Design**: Access the app on any device, from desktops to mobiles. 📱💻  
 - **User-Friendly Interface**: Modern UI with intuitive controls and audio playback. 🎨  
-- **Powered by Pwskills.com**: Leverages advanced text-to-speech technology. 🧠  
 
 ---
 
@@ -127,9 +126,8 @@ text-to-speech-converter/
 
 For support or inquiries, reach out to:
 
-* **Email**: [support@pwskills.com](mailto:support@pwskills.com) 📧
-* **Phone**: +91 7349432553 📞
-* **Website**: [pwskills.com](https://pwskills.com) 🌐
+* **Email**: [gauravsin333@gmail.com](mailto:gauravsin333@gmail.com) 📧
+* **Linkdin**: [https://www.linkedin.com/in/gaurav-singh522/](https://www.linkedin.com/in/gaurav-singh522/) 🌐
 
 ---
 
@@ -138,8 +136,6 @@ For support or inquiries, reach out to:
 This project is licensed under the **MIT License**. See the LICENSE file for details. 📄
 
 ---
-
-> Built with ❤️ by the **PWSkills** team.
 > **Happy converting!** 🎉
 
 ```
