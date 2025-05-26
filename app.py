@@ -20,3 +20,22 @@ def home():
     
     except Exception as e:
         raise TTSException(e,sys)
+    
+@app.route('/predict', methods= ['POST'])
+@cross_origin
+def predict():
+    try:
+        if request.method == 'POST':
+            data = request.json['data']
+            accent_input = request.json['accent']
+            accent = get_accent_tld(accent_input)
+            print(accent)
+            result = TTSapplication().text2speech(data,accent)
+            return {'data': result.decode('utf-8')}
+       
+    except Exception as e:
+        raise TTSException(e,sys)
+  
+if __name__ == 'main':
+    app.run(host='127.0.0.1', port= 5000, debug= True)
+      
