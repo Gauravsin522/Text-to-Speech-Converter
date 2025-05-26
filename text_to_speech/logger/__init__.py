@@ -2,22 +2,23 @@ import logging
 import os
 from datetime import datetime
 
-# Create log directory
-LOG_DIR = 'pylogs'
+# create log directory
+LOG_DIR = "pylogs"
 LOG_DIR_PATH = os.path.join(os.getcwd(), LOG_DIR)
 
-# Create a logfile name
+# Create log directory using os.makedirs
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# Create logfile name
 CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
-file_name = f'log_{CURRENT_TIME_STAMP}'
-log_file_path = os.path.json(LOG_DIR, file_name)
+file_name = f"log_{CURRENT_TIME_STAMP}"
+log_file_path = os.path.join(LOG_DIR, file_name)
 
-# Configure logging
-logging.basicConfig(
-    level= logging.INFO,
-    filename=file_name,
-    format= '%(asctime)s %(levelname)s %(module)s ============ %(message)s',
-    datefmt= '%d-%m-%Y %H:%M'
-)
-
-# Create object for loggind
+# configure logging
+logging.basicConfig(level=logging.INFO,
+                    filename=log_file_path,
+                    format="%(asctime)s %(levelname)s %(module)s ============>%(message)s",
+                    datefmt= "%d-%m-%Y %H:%M")
+                
+# create object for logging
 logger = logging.getLogger()
