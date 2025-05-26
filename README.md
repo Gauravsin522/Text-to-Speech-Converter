@@ -1,5 +1,5 @@
 # 📢 Text to Speech Converter 🎙️
-![Screenshot](./images/Screenshot_26-5-2025_223812_127.0.0.1.jpeg)
+![Screenshot](D:\Project\PW Project\TTS Project\image\Screenshot_26-5-2025_223812_127.0.0.1.jpeg)
 
 Welcome to the **Text-to-Speech (TTS) Converter project!** This application converts user-provided text into natural-sounding speech with customizable English accents. Built using Flask, gTTS (Google Text-to-Speech), HTML, Tailwind CSS, and JavaScript, it offers a sleek, responsive UI and is architected with modularity, error handling, and configuration management—making it ideal for integration into larger systems. 🌐✨
 
